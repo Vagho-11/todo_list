@@ -1,0 +1,18 @@
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 25px;
+  margin: 5px 0;
+}
+.todo_item_edit {
+  display: flex;
+}
+.remov_btn {
+  width: 25px;
+  height: 25px;
+  padding-left: 5px;
+  cursor: pointer;
+}
